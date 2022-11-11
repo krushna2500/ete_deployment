@@ -14,22 +14,22 @@ stages:
     params:
       params.yaml:
         model:
-          conv_units: 24
+          conv_units: 8
         train:
-          epochs: 7
+          epochs: 3
     outs:
     - path: dvclive/metrics.json
-      md5: b3372099747396ff0c33fdcfbe27add8
+      md5: b3df46bf4636d93bc77afe178c2ba97b
       size: 202
     - path: dvclive/plots
-      md5: e557d1bc5d448aeede961779b5d8d8c3.dir
-      size: 663
+      md5: cc5f7c3b1793c85d0c6a0ece5e372c71.dir
+      size: 316
       nfiles: 4
     - path: models
-      md5: 45c639bcbec1dc38497ceb3f427a304d.dir
-      size: 6287216
+      md5: d27f634d9cdb05aba6ed91460224af44.dir
+      size: 2131824
       nfiles: 1
     - path: plots
-      md5: 9015ef27c473707bde0683d05b37cd67.dir
-      size: 71556
+      md5: 9750143e9fe02b3b8fcdcd1d7517e9a0.dir
+      size: 74539
       nfiles: 2
