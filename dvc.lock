@@ -16,20 +16,20 @@ stages:
         model:
           conv_units: 8
         train:
-          epochs: 6
+          epochs: 7
     outs:
     - path: dvclive/metrics.json
-      md5: 64909ee82eeec1286ae0891fa01167fd
-      size: 201
+      md5: 890c3cf692c0a8aa99195596b9112bc8
+      size: 202
     - path: dvclive/plots
-      md5: 987afa579b96638ff7872eba77b59a75.dir
-      size: 573
+      md5: 674f267ba1c90fa254f9f6dc73ddb65c.dir
+      size: 661
       nfiles: 4
     - path: models
-      md5: 246f9ed00551ff0c89082c383c00bd26.dir
+      md5: 6a784cea7a35bf631097b3f628d454c4.dir
       size: 2131824
       nfiles: 1
     - path: plots
-      md5: 1fc538479282257c8d43f03c9bba59a4.dir
-      size: 72959
+      md5: 793577fb3e1d23d0c3f5b8470eaa22ab.dir
+      size: 72877
       nfiles: 2
