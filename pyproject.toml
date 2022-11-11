@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ete-deployment"
+version = "0.1.0"
+description = "end to end deployemt pipeline"
+authors = ["krushna Panchvishe <krushnap@cdac.in>"]
+readme = "README.md"
+packages = [{include = "ete_deployment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
